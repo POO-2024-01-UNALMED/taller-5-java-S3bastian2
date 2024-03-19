@@ -10,9 +10,9 @@ public class Mamifero extends Animal {
     public static int caballos = 0;
     public static int leones = 0;
     private Boolean pelaje;
-    private Integer patas;
+    private int patas;
 
-    public Mamifero(String nombre, int edad, String habitat, String genero, Boolean pelaje, Integer patas, Zona zona) {
+    public Mamifero(String nombre, int edad, String habitat, String genero, Boolean pelaje, int patas, Zona zona) {
         super(nombre, edad, habitat, genero, zona);
         this.pelaje = pelaje;
         this.patas = patas;
@@ -49,7 +49,7 @@ public class Mamifero extends Animal {
         return patas;
     }
 
-    public void setPatas(Integer patas) {
+    public void setPatas(int patas) {
         this.patas = patas;
     }
 
