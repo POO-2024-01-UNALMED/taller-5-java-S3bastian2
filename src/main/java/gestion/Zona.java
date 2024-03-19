@@ -37,7 +37,7 @@ public class Zona {
         return this.zoo;
     }
 
-    public Zoologico setZoo(Zoologico zoo) {
+    public void setZoo(Zoologico zoo) {
         this.zoo = zoo;
     }
 
